@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main h2 {
+  font-size: 3rem;
+}
+
+.main p {
+  font-size: 1.75rem;
+  text-align: center;
+}
