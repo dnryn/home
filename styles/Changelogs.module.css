@@ -1,0 +1,20 @@
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.list {
+  padding: 0.5rem 1.5rem 1rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 36rem) {
+  .container {
+    width: 100%;
+  }
+}

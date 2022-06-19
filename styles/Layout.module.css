@@ -1,4 +1,18 @@
 .container {
   padding: 2rem;
   min-height: calc(100vh - 5rem);
+  color: var(--fontColor-primary);
+  background-color: var(--background-secondary);
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    padding: 1.5rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 36rem) {
+  .container {
+    padding: 1.25rem 0.75rem;
+  }
 }

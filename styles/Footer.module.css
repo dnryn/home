@@ -1,8 +1,21 @@
 .footer {
   display: flex;
   font: 1rem monospace;
-  padding: 1.5rem;
-  border-top: 1px solid #eaeaea;
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
+  color: var(--fontColor-secondary);
+  background-color: var(--background-primary);
+}
+
+.footer p {
+  flex: 1;
+}
+
+.footer p:nth-child(2) {
+  text-align: center;
+}
+
+.footer p:last-child {
+  text-align: right;
 }

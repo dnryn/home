@@ -1,12 +1,13 @@
 import css from "../styles/Footer.module.css";
+import ThemeToggle from "./ThemeToggle";
 
 const Footer = () => {
   return (
     <div className={css.footer}>
-      <p>Powered by Servers ❤️</p>
-
+      <p>© 2022</p>
+      <ThemeToggle />
       <p>
-        ©&nbsp;
+        by{" "}
         <a href="https://knitish.dev" target="_blank" rel="noopener noreferrer">
           Nitish
         </a>

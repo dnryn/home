@@ -10,7 +10,6 @@ const Nav = () => {
 
   const toggleNavbar = () => {
     setMenuOpen((menuOpen) => !menuOpen);
-    console.log(menuOpen);
   };
 
   const { width } = useWindowSize();
@@ -44,13 +43,13 @@ const Nav = () => {
           <Link href="/">$HOME</Link>
         </li>
         <li>
-          <Link href="/blog">~/Blog</Link>
+          <Link href="/blog">~/blog</Link>
         </li>
         <li>
-          <Link href="/stuff">~/Stuff</Link>
+          <Link href="/random">~/random</Link>
         </li>
         <li>
-          <Link href="/moon">~/Moooon</Link>
+          <Link href="/changelogs">~/changelogs</Link>
         </li>
       </ul>
     </div>

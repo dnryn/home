@@ -8,6 +8,12 @@ const Stuff = () => {
       <Head>
         <title>Stuff | Nitish</title>
       </Head>
+
+      <h2 className="section-title">Random</h2>
+      <p className="section-sub">
+        Random things. Mostly from my potato camera.
+      </p>
+
       <Image src="/stuff.jpg" height="252" width="450" alt="stuff" />
     </div>
   );
