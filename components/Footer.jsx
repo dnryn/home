@@ -7,7 +7,7 @@ const Footer = () => {
       <p>© 2022</p>
       <ThemeToggle />
       <p>
-        by{" "}
+        by&nbsp;
         <a href="https://knitish.dev" target="_blank" rel="noopener noreferrer">
           Nitish
         </a>
